@@ -28,6 +28,10 @@ def should_skip(path):
         '.py', '.pyx', '.pyd', '.pyo', '.pyc', '.pyw', '.pyi',
         # C and C++
         '.c', '.h', '.i', '.cpp', '.hpp', '.cc', '.hh', '.cxx', '.hxx',
+        # CUDA
+        '.cu', '.cuh',
+        # Cython
+        '.pxd', '.pyx', '.pxi'
         # Julia
         '.jl',
         # JavaScript and TypeScript
